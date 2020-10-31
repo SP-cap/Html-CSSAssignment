@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+.head{
+    background-color: burlywood;
+    
+    padding-bottom: 500px;
+    border: 1px solid black; 
+    grid-column: 1/6;
+    background-image: url(img4/head3.jpg);
+    background-size: 100%;
+    width: 200%;
+    background-attachment: fixed;
+    
+    
+    
+}
+.head h2{
+    position: relative;
+    top: 150px;
+    left: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    background-color: rgb(0,0,0,0.6);
+    width: 600px;
+    color: #f7cd5a;
+}
+.head p{
+    position: relative;
+    top: 180px;
+    left: 500px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    background-color: rgb(0,0,0,0.6);
+    width: 600px;
+    color: #f7cd5a;
+}
+.head button{
+    position: relative;
+    top: 400px;
+    left: 700px;
+    width: 200px;
+    height: 40px;
+    color:#f7cd5a ;
+    border:1px solid #f7cd5a ;
+    font-size: 20px;
+    background-color:rgb(0,0,0,0.6) ;
+}
+.menu{
+    background-color: #cac0c0;
+    padding-bottom: 100px;
+    
+    grid-column: 1/6; 
+
+}
+.menu h2{
+    position: relative;
+    top: 20px;
+    left: 650px;
+    font-family: 'Times New Roman', Times, serif;
+    color:  black;
+    text-decoration: underline;
+    font-size: 60px;
+    
+    width: 100px;
+    margin-top: -20px;  
+}
+.menu p{
+    position: relative;
+    top: 80px;
+    left: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.Gallery{
+    padding-bottom: 150px;
+    border: 1px solid black; 
+    grid-column: 1/6;
+    background-color:#581616;
+}
+.Gallery h2{
+    position: relative;
+    top: 20px;
+    left: 690px;
+    font-family: 'Times New Roman', Times, serif;
+    color:  #f7cd5a;
+    font-size: 60px;
+    background-color: #581616;
+    width: 1000px;
+    margin-top: -20px;
+}
+img{
+    position: relative;
+    top: 60px;
+}
+.g1{
+    position: relative;
+    width: 350px;
+    left: 50px;
+}
+.g2{
+    position: relative;
+    width: 350px;
+    left:50px;
+    
+
+}
+.g3{
+    position: relative;
+    width: 350px;
+    left: 50px;
+    top: 100px;
+}
+.g4{
+    position: relative;
+    width: 350px;
+    left: 50px;
+    height: 400px;
+    top: -60px;
+}
+.nav{
+    padding-bottom: 60px;
+    border: 1px solid black; 
+    grid-column: 1/6;
+    background-color: black;
+}
+.nestnav{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10%;
+    grid-gap: 20px;
+    position: relative;
+    top: 50px;
+    col
+
+}
+.nestnav span{
+    text-decoration: underline;
+    font-weight: normal;
+    color: grey;
+
+}
+.nestnav p{
+    
+    color: white;
+}
+#coffee{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    
+}
+.nested{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10%;
+    grid-gap: 20px
+}
+p{
+    padding-bottom: 10px;
+    
+}

@@ -1,0 +1,8 @@
+body{
+    font-family: 'candara';
+    font-size: large;
+    background-color: #99ffff;
+}
+.uppercase{
+    text-transform: uppercase;
+}
